@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tile Sliding Puzzle – Privacy Policy</title>
-  <meta name="description" content="Privacy policy for the Tile Sliding Puzzle iOS app.">
+  <meta name="description" content="Privacy policy for the Tile Sliding Puzzle app on iOS and Android.">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <main>
   <h1>Tile Sliding Puzzle – Privacy Policy</h1>
-  <p class="muted">Effective date: October 5, 2026 · Developer: Tung Nguyen</p>
+  <p class="muted">Effective date: October 27, 2026 · Developer: Tung Nguyen</p>
 
   <nav class="lang">
     <a href="#en">English</a>
@@ -19,85 +19,105 @@
 
   <section class="card" id="en" lang="en">
     <h2>English</h2>
-    <p>This policy explains what information the Tile Sliding Puzzle app (“the app”) handles and why. The app has no user accounts and the developer does not run any servers that receive your data.</p>
+    <p>This policy explains what information the Tile Sliding Puzzle app (“the app”) for iOS and Android handles and why. The app has no user accounts, and the developer does not run any servers of its own. The app uses the Google services described below: AdMob for ads, and Firebase for usage statistics, crash reports and app configuration.</p>
 
     <h3>1. Photos and camera</h3>
-    <p>If you choose to play with a picture, the app asks to access your photo library or camera only at that moment. The photo you pick or take is cut into tiles and saved <strong>only on your device</strong>, inside the app’s private storage. It is never uploaded or shared. Deleting the app deletes it.</p>
-    <p>Photos you take with the camera inside the app are also saved to your own Photos library, so you keep them. For this the app asks only for permission to <em>add</em> photos; it cannot read the rest of your library this way. If you decline, the photo is simply not saved there.</p>
+    <p>If you choose to play with a picture, the app accesses your photos or camera only at that moment. On iOS it asks for permission; on Android it uses the system photo picker and camera app, which give the app only the photo you choose or take. The photo is cut into tiles and saved <strong>only on your device</strong>, inside the app’s private storage. It is never uploaded or shared. Deleting the app deletes it.</p>
+    <p>Photos you take with the camera inside the app are also saved to your own photo library (Photos on iOS, Gallery on Android), so you keep them. The app cannot read the rest of your library this way. On iOS, if you decline the permission to add photos, the photo is simply not saved there.</p>
 
     <h3>2. Data stored on your device</h3>
     <p>Your settings (board layout, theme, content), best scores, remaining undos and your win history (date, board, moves, time and a small copy of the picture you played with) are stored locally on your device. They are not sent to the developer.</p>
-    <p>When you tap Share, the app creates an image of your win and opens the standard iOS share sheet. Nothing is posted unless you choose an app and confirm; what happens next is governed by that app’s own privacy policy.</p>
+    <p>Play reminders are scheduled on your device as local notifications; nothing is sent to a server to deliver them. You can turn them off in the app’s Settings or in your device’s notification settings.</p>
+    <p>When you tap Share, the app creates an image of your win and opens your device’s standard share sheet. Nothing is posted unless you choose an app and confirm; what happens next is governed by that app’s own privacy policy.</p>
 
     <h3>3. Advertising (Google AdMob)</h3>
     <p>The app shows ads provided by Google AdMob. To deliver, measure and protect ads from fraud, Google may collect:</p>
     <ul>
-      <li>Your device’s advertising identifier (IDFA), only if you allow tracking when iOS asks;</li>
+      <li>Your device’s advertising identifier: on iOS (IDFA) only if you allow tracking when iOS asks; on Android, the Android Advertising ID, which you can reset or delete in your device settings;</li>
       <li>Device information such as model, operating system and language;</li>
       <li>Your IP address and approximate location derived from it;</li>
       <li>How you interact with ads (views, taps).</li>
     </ul>
-    <p>Personalised ads are shown only with your consent. If you are in the European Economic Area, the United Kingdom or Switzerland, the app asks for consent when it starts, and you can change your choice at any time in the app under <em>Settings → Privacy Settings</em>. You can also turn tracking off in iOS under <em>Settings → Privacy &amp; Security → Tracking</em>.</p>
+    <p>Personalised ads are shown only with your consent. If you are in the European Economic Area, the United Kingdom or Switzerland, the app asks for consent when it starts, and you can change your choice at any time in the app under <em>Settings → Privacy Settings</em>. You can also limit tracking on your device: on iOS under <em>Settings → Privacy &amp; Security → Tracking</em>; on Android under <em>Settings → Privacy → Ads</em> (or <em>Settings → Google → Ads</em>, depending on the device).</p>
     <p>Learn more in <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
 
-    <h3>4. In-app purchases</h3>
-    <p>The optional “Remove Ads” purchase is processed entirely by Apple. The developer never sees your payment details. The app only checks with Apple, on your device, whether the purchase is active.</p>
+    <h3>4. Usage statistics, crash reports and app configuration (Google Firebase)</h3>
+    <p>The app uses Google Firebase to understand how the game is played, to fix crashes and to tell you when an update is needed:</p>
+    <ul>
+      <li><strong>Firebase Analytics</strong> records anonymous usage: app opens and session length, country, device model, operating system, app version, in-app purchases, and game events such as finishing a puzzle (board size, numbers or picture, moves, time, whether it was a new record) and earning a reward from a video. It uses an app instance identifier, not your name, email or photos.</li>
+      <li><strong>Firebase Crashlytics</strong> sends a report when the app crashes: the technical details of the crash, device model, operating system, app version and language.</li>
+      <li><strong>Firebase Remote Config</strong> lets the app check whether a newer version is available or required.</li>
+    </ul>
+    <p>This information is not used to identify you and is not sold. It is processed by Google on the developer’s behalf and kept only for a limited time under Firebase’s retention settings. Learn more in <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
 
-    <h3>5. Feedback</h3>
-    <p>If you send feedback from the app or write to us, we receive your email address, your message and the technical details shown in the email (app version, iOS version, device model, language, board layout and whether ads were removed). They are used only to answer you and improve the app, and are never shared or sold.</p>
+    <h3>5. In-app purchases</h3>
+    <p>The optional “Remove Ads” purchase is processed entirely by Apple (App Store) or Google (Google Play). The developer never sees your payment details. The app only checks with the store, on your device, whether the purchase is active.</p>
 
-    <h3>6. Children</h3>
+    <h3>6. Feedback</h3>
+    <p>If you send feedback from the app or write to us, we receive your email address, your message and the technical details shown in the email (app version, operating system version, device model, language, board layout and whether ads were removed). They are used only to answer you and improve the app, and are never shared or sold.</p>
+
+    <h3>7. Children</h3>
     <p>The app is not directed at children under 13, and the developer does not knowingly collect personal information from them.</p>
 
-    <h3>7. Your choices and data deletion</h3>
-    <p>You can deny or revoke photo, camera and tracking permissions in iOS Settings at any time. Deleting the app removes all data it stored on your device. Data collected by Google is handled under Google’s policies linked above.</p>
+    <h3>8. Your choices and data deletion</h3>
+    <p>You can deny or revoke photo, camera, notification and tracking permissions in your device settings at any time. Deleting the app removes all data it stored on your device. Data collected by Google is handled under Google’s policies linked above.</p>
 
-    <h3>8. Changes</h3>
+    <h3>9. Changes</h3>
     <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
 
-    <h3>9. Contact</h3>
+    <h3>10. Contact</h3>
     <p>Questions about this policy: <a href="mailto:tungnq.it@gmail.com">tungnq.it@gmail.com</a></p>
   </section>
 
   <section class="card" id="vi" lang="vi">
     <h2>Tiếng Việt</h2>
-    <p>Chính sách này giải thích ứng dụng Tile Sliding Puzzle (“ứng dụng”) xử lý những thông tin gì và vì sao. Ứng dụng không có tài khoản người dùng và nhà phát triển không vận hành máy chủ nào nhận dữ liệu của bạn.</p>
+    <p>Chính sách này giải thích ứng dụng Tile Sliding Puzzle (“ứng dụng”) trên iOS và Android xử lý những thông tin gì và vì sao. Ứng dụng không có tài khoản người dùng và nhà phát triển không vận hành máy chủ riêng nào. Ứng dụng dùng các dịch vụ của Google nêu dưới đây: AdMob để hiển thị quảng cáo, và Firebase để thống kê sử dụng, báo lỗi ứng dụng và cấu hình ứng dụng.</p>
 
     <h3>1. Ảnh và camera</h3>
-    <p>Khi bạn chọn chơi bằng ảnh, ứng dụng chỉ xin quyền truy cập thư viện ảnh hoặc camera vào đúng lúc đó. Ảnh bạn chọn hoặc chụp được cắt thành các ô và <strong>chỉ lưu trên thiết bị của bạn</strong>, trong vùng lưu trữ riêng của ứng dụng. Ảnh không bao giờ được tải lên hay chia sẻ. Xoá ứng dụng sẽ xoá ảnh.</p>
-    <p>Ảnh bạn chụp bằng camera trong ứng dụng cũng được lưu vào thư viện Ảnh của chính bạn để bạn giữ lại. Để làm việc này, ứng dụng chỉ xin quyền <em>thêm</em> ảnh và không thể đọc phần còn lại của thư viện qua quyền này. Nếu bạn từ chối, ảnh sẽ không được lưu vào đó.</p>
+    <p>Khi bạn chọn chơi bằng ảnh, ứng dụng chỉ truy cập ảnh hoặc camera vào đúng lúc đó. Trên iOS, ứng dụng sẽ xin quyền; trên Android, ứng dụng dùng trình chọn ảnh và ứng dụng camera của hệ thống, nên chỉ nhận đúng tấm ảnh bạn chọn hoặc chụp. Ảnh được cắt thành các ô và <strong>chỉ lưu trên thiết bị của bạn</strong>, trong vùng lưu trữ riêng của ứng dụng. Ảnh không bao giờ được tải lên hay chia sẻ. Xoá ứng dụng sẽ xoá ảnh.</p>
+    <p>Ảnh bạn chụp bằng camera trong ứng dụng cũng được lưu vào thư viện ảnh của chính bạn (Ảnh trên iOS, Thư viện trên Android) để bạn giữ lại. Ứng dụng không thể đọc phần còn lại của thư viện qua cách này. Trên iOS, nếu bạn từ chối quyền thêm ảnh, ảnh sẽ không được lưu vào đó.</p>
 
     <h3>2. Dữ liệu lưu trên thiết bị</h3>
     <p>Cài đặt của bạn (bố cục bàn chơi, giao diện, nội dung), kỷ lục, số lượt hoàn tác và lịch sử chiến thắng (ngày giờ, bàn chơi, số nước, thời gian và một bản thu nhỏ của ảnh bạn đã chơi) được lưu ngay trên thiết bị và không gửi cho nhà phát triển.</p>
-    <p>Khi bạn bấm Chia sẻ, ứng dụng tạo một hình ảnh về chiến thắng của bạn và mở bảng chia sẻ tiêu chuẩn của iOS. Không có gì được đăng lên trừ khi bạn tự chọn một ứng dụng và xác nhận; việc xử lý sau đó tuân theo chính sách quyền riêng tư của ứng dụng đó.</p>
+    <p>Thông báo nhắc chơi được lên lịch ngay trên thiết bị dưới dạng thông báo cục bộ; không có gì được gửi tới máy chủ để hiển thị chúng. Bạn có thể tắt trong Cài đặt của ứng dụng hoặc trong phần cài đặt thông báo của thiết bị.</p>
+    <p>Khi bạn bấm Chia sẻ, ứng dụng tạo một hình ảnh về chiến thắng của bạn và mở bảng chia sẻ tiêu chuẩn của thiết bị. Không có gì được đăng lên trừ khi bạn tự chọn một ứng dụng và xác nhận; việc xử lý sau đó tuân theo chính sách quyền riêng tư của ứng dụng đó.</p>
 
     <h3>3. Quảng cáo (Google AdMob)</h3>
     <p>Ứng dụng hiển thị quảng cáo do Google AdMob cung cấp. Để phân phối, đo lường và chống gian lận quảng cáo, Google có thể thu thập:</p>
     <ul>
-      <li>Mã quảng cáo của thiết bị (IDFA), chỉ khi bạn cho phép theo dõi lúc iOS hỏi;</li>
+      <li>Mã quảng cáo của thiết bị: trên iOS (IDFA) chỉ khi bạn cho phép theo dõi lúc iOS hỏi; trên Android là Mã quảng cáo Android, bạn có thể đặt lại hoặc xoá trong cài đặt thiết bị;</li>
       <li>Thông tin thiết bị như dòng máy, hệ điều hành và ngôn ngữ;</li>
       <li>Địa chỉ IP và vị trí gần đúng suy ra từ địa chỉ IP;</li>
       <li>Cách bạn tương tác với quảng cáo (lượt xem, lượt chạm).</li>
     </ul>
-    <p>Quảng cáo cá nhân hoá chỉ hiển thị khi bạn đồng ý. Nếu bạn ở Khu vực Kinh tế Châu Âu, Vương quốc Anh hoặc Thuỵ Sĩ, ứng dụng sẽ hỏi ý kiến bạn khi khởi động, và bạn có thể thay đổi lựa chọn bất cứ lúc nào trong ứng dụng tại <em>Cài đặt → Quyền riêng tư</em>. Bạn cũng có thể tắt theo dõi trong iOS tại <em>Cài đặt → Quyền riêng tư &amp; Bảo mật → Theo dõi</em>.</p>
+    <p>Quảng cáo cá nhân hoá chỉ hiển thị khi bạn đồng ý. Nếu bạn ở Khu vực Kinh tế Châu Âu, Vương quốc Anh hoặc Thuỵ Sĩ, ứng dụng sẽ hỏi ý kiến bạn khi khởi động, và bạn có thể thay đổi lựa chọn bất cứ lúc nào trong ứng dụng tại <em>Cài đặt → Quyền riêng tư</em>. Bạn cũng có thể hạn chế theo dõi trên thiết bị: trên iOS tại <em>Cài đặt → Quyền riêng tư &amp; Bảo mật → Theo dõi</em>; trên Android tại <em>Cài đặt → Quyền riêng tư → Quảng cáo</em> (hoặc <em>Cài đặt → Google → Quảng cáo</em>, tuỳ thiết bị).</p>
     <p>Tìm hiểu thêm tại <a href="https://policies.google.com/privacy?hl=vi">Chính sách quyền riêng tư của Google</a> và <a href="https://policies.google.com/technologies/partner-sites?hl=vi">Cách Google sử dụng thông tin từ các trang web hoặc ứng dụng sử dụng dịch vụ của Google</a>.</p>
 
-    <h3>4. Mua hàng trong ứng dụng</h3>
-    <p>Giao dịch “Gỡ quảng cáo” (không bắt buộc) do Apple xử lý hoàn toàn. Nhà phát triển không bao giờ thấy thông tin thanh toán của bạn. Ứng dụng chỉ hỏi Apple, ngay trên thiết bị, xem giao dịch còn hiệu lực hay không.</p>
+    <h3>4. Thống kê sử dụng, báo lỗi và cấu hình ứng dụng (Google Firebase)</h3>
+    <p>Ứng dụng dùng Google Firebase để hiểu cách trò chơi được sử dụng, sửa lỗi ứng dụng bị dừng đột ngột và thông báo khi cần cập nhật:</p>
+    <ul>
+      <li><strong>Firebase Analytics</strong> ghi nhận việc sử dụng ẩn danh: lượt mở ứng dụng và thời lượng phiên, quốc gia, dòng máy, hệ điều hành, phiên bản ứng dụng, giao dịch mua trong ứng dụng, và các sự kiện trong trò chơi như hoàn thành một màn (kích thước bàn chơi, chơi bằng số hay ảnh, số nước, thời gian, có phải kỷ lục mới không) và nhận thưởng sau khi xem video. Firebase dùng một mã định danh của bản cài đặt ứng dụng, không dùng tên, email hay ảnh của bạn.</li>
+      <li><strong>Firebase Crashlytics</strong> gửi báo cáo khi ứng dụng bị dừng đột ngột: chi tiết kỹ thuật của lỗi, dòng máy, hệ điều hành, phiên bản ứng dụng và ngôn ngữ.</li>
+      <li><strong>Firebase Remote Config</strong> giúp ứng dụng kiểm tra xem đã có phiên bản mới hoặc có bắt buộc cập nhật hay không.</li>
+    </ul>
+    <p>Các thông tin này không dùng để nhận diện bạn và không bao giờ được bán. Google xử lý chúng thay mặt nhà phát triển và chỉ lưu trong thời gian giới hạn theo cài đặt lưu trữ của Firebase. Tìm hiểu thêm tại <a href="https://firebase.google.com/support/privacy">Quyền riêng tư và bảo mật trong Firebase</a>.</p>
 
-    <h3>5. Góp ý</h3>
-    <p>Nếu bạn gửi góp ý từ ứng dụng hoặc email cho chúng tôi, chúng tôi nhận được địa chỉ email, nội dung thư và các thông tin kỹ thuật hiển thị trong email (phiên bản ứng dụng, phiên bản iOS, dòng máy, ngôn ngữ, bố cục bàn chơi và việc đã gỡ quảng cáo hay chưa). Các thông tin này chỉ dùng để trả lời bạn và cải thiện ứng dụng, không bao giờ được chia sẻ hay bán.</p>
+    <h3>5. Mua hàng trong ứng dụng</h3>
+    <p>Giao dịch “Gỡ quảng cáo” (không bắt buộc) do Apple (App Store) hoặc Google (Google Play) xử lý hoàn toàn. Nhà phát triển không bao giờ thấy thông tin thanh toán của bạn. Ứng dụng chỉ hỏi cửa hàng, ngay trên thiết bị, xem giao dịch còn hiệu lực hay không.</p>
 
-    <h3>6. Trẻ em</h3>
+    <h3>6. Góp ý</h3>
+    <p>Nếu bạn gửi góp ý từ ứng dụng hoặc email cho chúng tôi, chúng tôi nhận được địa chỉ email, nội dung thư và các thông tin kỹ thuật hiển thị trong email (phiên bản ứng dụng, phiên bản hệ điều hành, dòng máy, ngôn ngữ, bố cục bàn chơi và việc đã gỡ quảng cáo hay chưa). Các thông tin này chỉ dùng để trả lời bạn và cải thiện ứng dụng, không bao giờ được chia sẻ hay bán.</p>
+
+    <h3>7. Trẻ em</h3>
     <p>Ứng dụng không hướng tới trẻ em dưới 13 tuổi, và nhà phát triển không cố ý thu thập thông tin cá nhân của trẻ em.</p>
 
-    <h3>7. Lựa chọn của bạn và xoá dữ liệu</h3>
-    <p>Bạn có thể từ chối hoặc thu hồi quyền truy cập ảnh, camera và theo dõi trong phần Cài đặt của iOS bất cứ lúc nào. Xoá ứng dụng sẽ xoá toàn bộ dữ liệu ứng dụng đã lưu trên thiết bị. Dữ liệu do Google thu thập được xử lý theo các chính sách của Google nêu ở trên.</p>
+    <h3>8. Lựa chọn của bạn và xoá dữ liệu</h3>
+    <p>Bạn có thể từ chối hoặc thu hồi quyền truy cập ảnh, camera, thông báo và theo dõi trong phần cài đặt của thiết bị bất cứ lúc nào. Xoá ứng dụng sẽ xoá toàn bộ dữ liệu ứng dụng đã lưu trên thiết bị. Dữ liệu do Google thu thập được xử lý theo các chính sách của Google nêu ở trên.</p>
 
-    <h3>8. Thay đổi</h3>
+    <h3>9. Thay đổi</h3>
     <p>Nếu chính sách này thay đổi, phiên bản mới sẽ được đăng trên trang này kèm ngày hiệu lực mới.</p>
 
-    <h3>9. Liên hệ</h3>
+    <h3>10. Liên hệ</h3>
     <p>Mọi câu hỏi về chính sách này: <a href="mailto:tungnq.it@gmail.com">tungnq.it@gmail.com</a></p>
   </section>
 
